@@ -2,9 +2,7 @@ def prime?(num)
   i = 2
   isprime = false
   while i < num
-    if !(num % i == 0)
-      return true
-    end
+    isprime = (num % i == 0)
     i += 1
   end
   isprime
