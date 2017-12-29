@@ -7,6 +7,6 @@ def prime(num)
       isprime = false
     end
     i += 1
-  end 
-  isprime 
+  end
+  isprime
 end
