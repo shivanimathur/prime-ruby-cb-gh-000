@@ -1,5 +1,6 @@
 def prime?(num)
   i = 2
+  isprime = false
   if num < 2
     return false
   end
@@ -9,5 +10,5 @@ def prime?(num)
     end
     i += 1
   end
-
+  isprime
 end
