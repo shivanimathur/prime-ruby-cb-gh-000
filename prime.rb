@@ -4,10 +4,10 @@ def prime?(num)
     if num % i == 0
       return false
 
-    else 
+    else
       return true
     end
     i += 1
   end
-  
+
 end
